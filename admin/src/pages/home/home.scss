@@ -1,0 +1,33 @@
+.parents{
+    display: flex;
+    
+    .container{
+        flex: 6;
+        flex-direction: column;
+
+        .widget{
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 20px;
+        }
+       .featured{
+        display: flex;
+        gap: 20px;
+        padding: 5px 20px;
+       }
+       .user-item{
+        border-radius: 10px;
+        box-shadow: -5px 9px 28px -3px rgba(74,70,70,0.76);
+        -webkit-box-shadow: -5px 9px 28px -3px rgba(74,70,70,0.76);
+        -moz-box-shadow: -5px 9px 28px -3px rgba(74,70,70,0.76);
+        padding: 20px;
+        margin: 20px;
+        .user-title{
+            color: gray;
+            font-size:10px;
+        }
+       }
+    }
+    
+}

@@ -1,0 +1,81 @@
+.ft1{
+    flex: 4;
+    border-radius: 10px;
+    box-shadow: -5px 9px 28px -3px rgba(74,70,70,0.76);
+    -webkit-box-shadow: -5px 9px 28px -3px rgba(74,70,70,0.76);
+    -moz-box-shadow: -5px 9px 28px -3px rgba(74,70,70,0.76);
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 10px;
+        h1{
+            font-size: 22px;
+            color: gray;
+            font-weight: 500;
+        }
+    }
+    .bottom{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        .ft2{
+            width: 130px;
+            height: 130px;
+        }
+        .title{
+            font-size: 20px;
+            color: gray;
+        }
+        .amount{
+            font-size: 25px;
+            font-weight: 600;
+        }
+        .desc{
+            color: gray;
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+
+    .bottom-salary{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 10px;
+        justify-content: space-between;
+        padding: 3px;
+
+        .item{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            
+            h3{
+                color: gray;
+                font-size: 15px;
+            }
+            .salary{
+                display: flex;
+                margin-top: 5px;
+                align-items: center;
+                justify-content: center;
+
+                &.positive{
+                    color: green;
+                }
+                &.negative{
+                    color: red;
+                }
+
+                span{
+                    font-size: 15px;
+                }
+            }
+            
+        }
+    }
+}

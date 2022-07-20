@@ -1,0 +1,28 @@
+.app.dark{
+    background-color: #222;
+
+    .MuiPaper-root{
+        background-color: #111;
+        color: gray;
+        td{
+            color: gray;
+        }
+        .tableCell{
+            color: gray;
+        }
+    }
+
+    .navbar{
+        color: gray;
+        .icon{
+            color: gray;
+        }
+      
+    }
+    .datatable{
+        color: gray;
+        .dataGrid{
+            color: gray;
+        }
+    }
+}

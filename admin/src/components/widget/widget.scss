@@ -1,0 +1,45 @@
+.containerW
+{
+   display: flex;
+   flex: 1;
+   justify-content: space-between;
+   height: 90px;
+   padding: 10px;
+   border-radius: 10px;
+   box-shadow: -5px 9px 28px -3px rgba(74,70,70,0.76);
+   -webkit-box-shadow: -5px 9px 28px -3px rgba(74,70,70,0.76);
+   -moz-box-shadow: -5px 9px 28px -3px rgba(74,70,70,0.76);
+
+   .left,.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .title{
+        font-size: 15px;
+        font-weight: 300;
+        color: gray;
+
+    }
+    .counter{
+        font-size: 26px;
+        font-weight: 300;
+    }
+    .link{
+        color: gray;
+        font-size: 12px;
+        
+        border-bottom: 1px solid rgba(71, 71, 71, 0.192);
+    }
+    .icon{
+        align-self: flex-end;
+        font-size: 25px;
+    }
+    .persontage{
+        display: flex;
+        align-items: center;
+       color: green;
+    }
+   }
+
+}
